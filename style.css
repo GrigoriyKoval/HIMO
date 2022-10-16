@@ -33,8 +33,14 @@ body {
   padding: 0 15px;
   margin: 0 auto;
 }
+/* Logo */
+.logo__img {
+  object-fit: cover;
+  max-width: 160px;
+  width: 100%;
+}
 /* nav bar */
-.nav{
+.nav {
   padding-top: 10px;
 }
 .nav__inner {
@@ -44,6 +50,7 @@ body {
 }
 .nav__list {
   display: flex;
+  padding-top: 20px;
 }
 .nav__item {
   margin-right: 10px;
@@ -60,4 +67,64 @@ body {
 .nav__link:hover {
   background-color: #131313;
   color: #fff;
+}
+@media screen and (max-width: 768px) {
+  .nav__link {
+    padding: 30px 5px;
+  }
+  .nav__item {
+    margin-right: 5px;
+  }
+}
+@media screen and (max-width: 540px) {
+  .nav__link {
+    padding: 10px 5px;
+  }
+  .nav__inner {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 480px) {
+  .nav__link {
+    font-size: 13px;
+  }
+}
+/* Hero section */
+.hero {
+  padding-top: 150px;
+}
+.hero__inner {
+  display: flex;
+}
+.hero__title {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 77px;
+  margin-bottom: 5px;
+}
+.hero__subtitle {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+  color: #6f6f6f;
+  margin-bottom: 60px;
+}
+.hero__text {
+  max-width: 420px;
+  width: 100%;
+  line-height: 120%;
+  margin-bottom: 20px;
+}
+.hero__btn {
+  margin-top: 80px;
+}
+.primary__btn {
+  padding: 30px 80px;
+  background-color: #131313;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 1.1em;
+  text-transform: uppercase;
+  color: #fff;
+  display: block;
 }
