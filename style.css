@@ -239,10 +239,60 @@ body {
 }
 .about__img {
   margin-right: 60px;
+  max-width: 570px;
+  width: 100%;
 }
 @media screen and (max-width: 1224px) {
-  /* пишемо класи до яких потрібно примінити стилі */
-  .about_inner {
-    flex-direction: column;
+  .about__img {
+    max-width: 470px;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 992px) {
+  .about__inner {
+    justify-content: center;
+  }
+  .about__img {
+    display: none;
+  }
+  .about__item-description {
+    max-width: 720px;
+  }
+}
+.property__title {
+  /* Секція property */
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+.property__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.property__head {
+  background-color: #131313;
+  color: #fff;
+}
+.property__head td {
+  width: 100%;
+  background-color: #131313;
+}
+.property__tr td {
+  width: 285px;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: left;
+  padding-top: 10px;
+}
+.property__tr--td {
+  padding-bottom: 30px;
+}
+@media screen and (max-width: 992px) {
+  .property__img {
+    display: none;
+    width: 768px;
   }
 }
