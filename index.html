@@ -163,9 +163,10 @@
       <div class="container">
         <h2 class="property__title">Характеристики</h2>
         <div class="property__inner">
-          <table class="characteristic">
+          <table class="property__characteristic">
             <thead class="property__head">
               <th>ОБЩИЕ</th>
+              <th></th>
             </thead>
             <tbody class="property__tbody">
               <tr class="property__tr">
@@ -190,6 +191,7 @@
 
               <thead class="property__head">
                 <th>Амортизация</th>
+                <th></th>
               </thead>
               <tr class="property__tr">
                 <td>Тип амортизации</td>
@@ -201,6 +203,7 @@
               </tr>
               <thead class="property__head">
                 <th>Управление</th>
+                <th></th>
               </thead>
               <tr class="property__tr">
                 <td>Руль</td>
@@ -212,6 +215,7 @@
               </tr>
               <thead class="property__head">
                 <th>Характеристика трансмиссии</th>
+                <th></th>
               </thead>
               <tr class="property__tr">
                 <td>Количество скоростей</td>
@@ -235,6 +239,7 @@
               </tr>
               <thead class="property__head">
                 <th>Тормоза</th>
+                <th></th>
               </thead>
               <tr class="property__tr">
                 <td>Передний</td>
@@ -245,11 +250,14 @@
                 <td>дисковый механический</td>
               </tr>
               <tr class="property__tr">
-                <td class="property__tr--td">Готовность к установке дисковых</td>
-                <td>рама, вилка, втулка </td>
+                <td class="property__tr--td">
+                  Готовность к установке дисковых
+                </td>
+                <td>рама, вилка, втулка</td>
               </tr>
               <thead class="property__head">
                 <th>Прочее</th>
+                <th></th>
               </thead>
               <tr class="property__tr">
                 <td>Оснащение</td>
@@ -268,6 +276,72 @@
             src="/HIMO/img/speedometr.jpg"
             alt="speedometr"
           />
+        </div>
+      </div>
+    </section>
+    <section class="visual">
+      <div class="container">
+        <ul class="visual__list">
+          <li class="visual__item">
+            <img class="visual__img" src="./img/bike3.jpg" alt="bikeblack" />
+          </li>
+          <li class="visual__item">
+            <img class="visual__img" src="./img/bike5.jpg" alt="bikered" />
+          </li>
+          <li class="visual__item">
+            <img class="visual__img" src="./img/bike6.jpg" alt="bikewhite" />
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="contacts">
+      <div class="container">
+        <h3 class="contacts__title">Заказать</h3>
+        <div class="contacts__inner">
+          <form class="contacts__form">
+            <p class="contacts__description">
+              Если Вы хотите заказать велосипед, оставьте свой контакт и наш
+              менеджер перезвонит вам в ближайшее время
+            </p>
+            <label class="contacts__label">
+              <input type="text" class="form__input" placeholder="Имя" />
+            </label>
+            <label class="contacts__label">
+              <input type="tel" class="form__input" placeholder="Телефон" />
+            </label>
+            <p class="contacts__text">выберите желаемый цвет</p>
+            <div class="contacts__form-inner">
+              <label class="contacts__color-label">
+                <input
+                  type="radio"
+                  class="contacts__color-input"
+                  name="color"
+                  value="grey"
+                />
+                <label>
+                <label class="contacts__color-label">
+                  <input
+                  type="radio"
+                  class="contacts__color-input"
+                  name="color"
+                  value="light"
+                />
+                </label>
+                <label class="contacts__color-label">
+                <input
+                  type="radio"
+                  class="contacts__color-input"
+                  name="color"
+                  value="red"
+                />
+              </label>
+            </div>
+            <button class="primary__btn">Заказать</button>
+          </form>
+         
+          <div class="contacts__price">
+            <img src="./img/bike4.jpg" alt="bike4" class="contacts__img">
+          </div>
         </div>
       </div>
     </section>
