@@ -311,23 +311,26 @@
             </label>
             <p class="contacts__text">выберите желаемый цвет</p>
             <div class="contacts__form-inner">
-              <label class="contacts__color-label">
+              <label class="contacts__color-label contacts__color-input--grey">
+                Grey
                 <input
                   type="radio"
                   class="contacts__color-input"
                   name="color"
                   value="grey"
                 />
-                <label>
-                <label class="contacts__color-label">
-                  <input
+              </label>
+              <label class="contacts__color-label contacts__color-label--light">
+                Light
+                <input
                   type="radio"
                   class="contacts__color-input"
                   name="color"
                   value="light"
                 />
-                </label>
-                <label class="contacts__color-label">
+              </label>
+              <label class="contacts__color-label contacts__color-label--red">
+                Red
                 <input
                   type="radio"
                   class="contacts__color-input"
@@ -336,11 +339,16 @@
                 />
               </label>
             </div>
-            <button class="primary__btn">Заказать</button>
+            <button class="primary__btn contacts__btn">Заказать</button>
           </form>
-         
+
           <div class="contacts__price">
-            <img src="./img/bike4.jpg" alt="bike4" class="contacts__img">
+            <div class="contacts__price-item">
+              <span class="contacts__price-cost">
+                32 999 грн.
+              </span>
+            </div>
+            <img src="./img/bike4.jpg" alt="bike4" class="contacts__img" />
           </div>
         </div>
       </div>
