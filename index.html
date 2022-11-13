@@ -310,30 +310,27 @@
               <input type="tel" class="form__input" placeholder="Телефон" />
             </label>
             <p class="contacts__text">выберите желаемый цвет</p>
-            <div class="contacts__form-inner">
-              <label class="contacts__color-label contacts__color-input--grey">
-                Grey
+            <div class="contacts__form-inner option">
+              <label class="contacts__color-label">
                 <input
                   type="radio"
-                  class="contacts__color-input"
+                  class="contacts__color-input contacts--grey"
                   name="color"
                   value="grey"
                 />
               </label>
-              <label class="contacts__color-label contacts__color-label--light">
-                Light
+              <label class="contacts__color-label">
                 <input
                   type="radio"
-                  class="contacts__color-input"
+                  class="contacts__color-input contacts--light"
                   name="color"
                   value="light"
                 />
               </label>
-              <label class="contacts__color-label contacts__color-label--red">
-                Red
+              <label class="contacts__color-label">
                 <input
                   type="radio"
-                  class="contacts__color-input"
+                  class="contacts__color-input contacts--red"
                   name="color"
                   value="red"
                 />
@@ -344,14 +341,31 @@
 
           <div class="contacts__price">
             <div class="contacts__price-item">
-              <span class="contacts__price-cost">
-                32 999 грн.
-              </span>
+              <span class="contacts__price-cost"> 32 999 грн. </span>
             </div>
             <img src="./img/bike4.jpg" alt="bike4" class="contacts__img" />
           </div>
         </div>
       </div>
     </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <a class="footer__copy" href="#">Политика конфиденциальности</a>
+          <div class="footer__social">
+            <a class="footer--instagram footer__link" href="#">Instagram</a>
+            <a class="footer--facebook footer__link" href="#">Facebook</a>
+          </div>
+          <div class="footer__contacts">
+            <a class="footer__number" href="tel:+380506777777">
+              +38 050 677 77 77
+            </a>
+            <a class="footer__email" href="mailto:elektrobikeukr@gmail.com">
+              elektrobikeukr@gmail.com
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
